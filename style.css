@@ -9,18 +9,33 @@ body {
     align-items: center;
     height: 100vh;
     text-align: center;
+    position: relative;
 }
+
 .maintenance-container {
     max-width: 400px;
-    padding: 2rem;
+    padding: 32px;
 }
 
 .maintenance-footer {
     position: absolute;
-    bottom: 2rem; /* Distance from the bottom of the viewport */
+    bottom: 32px; /* Distance from the bottom of the viewport */
     left: 50%;
     transform: translateX(-50%); /* Perfect horizontal centering */
     width: 100%;
+}
+
+.maintenance-footer p {
+    font-size: 14px;
+}
+
+.maintenance-footer a {
+    color: #38bdf8;
+    text-decoration: none;
+}
+
+.maintenance-footer a:hover {
+    text-decoration: underline;
 }
 
 .icon-box {
@@ -28,24 +43,27 @@ body {
     height: 48px;
     background-color: #e2e8f0;
     border-radius: 12px;
-    margin: 0 auto 1.5rem auto;
+    margin: 0 auto 24px auto;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .icon-box svg {
     width: 24px;
     height: 24px;
     fill: #64748b;
 }
+
 h1 {
-    font-size: 1.25rem;
+    font-size: 20px;
     font-weight: 600;
-    margin-bottom: 0.5rem;
+    margin-bottom: 8px;
     color: #1e293b;
 }
+
 p {
-    font-size: 0.95rem;
+    font-size: 15px;
     color: #64748b;
     line-height: 1.5;
     margin: 0;
