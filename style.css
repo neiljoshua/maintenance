@@ -52,9 +52,9 @@ body {
 .icon-box svg {
     width: 24px;
     height: 24px;
-    fill: #64748b;
+    stroke: #64748b; /* Ensures the outline matches your theme color */
+    fill: none;
 }
-
 h1 {
     font-size: 20px;
     font-weight: 600;
